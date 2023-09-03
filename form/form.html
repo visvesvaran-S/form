@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/733b02c320.js" crossorigin="anonymous"></script>
+    <script src="form.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1> sign up </h1>
+            <form class="myform">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input required type="text" placeholder="name" id="name">
+                    
+                    </div>
+ 
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input required type="email" placeholder="Email" id="email">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input required type="text" placeholder="phone number" id="number"><span id="numloc"></span>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input required type="password" placeholder="password" id="password">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input required type="password" placeholder="confirmpassword" id="confirmpassword">
+                    </div>
+                    <p>forget password <a href="#">click here</a></p>
+                </div>
+                <div class="btn-field">
+                <button type="button" onclick="formvalidation()" value="sign-up">sign-up</button>  
+                <button type="button" class="disable">sign in</button>   
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- <a class="a" href="home.html" target="target_blank"></a> -->
